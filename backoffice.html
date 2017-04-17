@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Administrar Persona</title>
+    <link rel="stylesheet" href="frontend.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body class="body_back_office">
+    <h1 class="h1">Reporte de personas</h1>
+    <div class="">
+      <div class="menu">
+        <label class="nombre">Nombre: </label>
+        <label for="" class="icon">
+          <i class="fa fa-search i_search"></i>
+          <input id="search" class="search" type="search" name="" value="" placeholder="Search"  >
+        </label>
+        <label for="" class="l_buscar">
+          <input  id="search_button" class="btn buscar "type="submit" name="" value="Buscar">
+        </label>
+        <label for="" class="l_nuevo">
+          <a  id = "nuevo" ihref="create_person.html" class="btn nuevo"> Nuevo</a>
+        </label>
+      </div>
+      <div class="">
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th><i class="fa fa-caret-down"></i>#</th>
+                <th><i class="fa fa-caret-down"></i>Nombre</th>
+                <th><i class="fa fa-caret-down"></i>Apellidos</th>
+                <th><i class="fa fa-caret-down"></i>DNI</th>
+                <th><i class="fa fa-caret-down"></i>Genero</th>
+                <th><i class="fa fa-caret-down"></i>Estado</th>
+                <th><i class="fa fa-caret-down"></i>Opciones</th>
+              </tr>
+            </thead>
+            <tbody id="table" >
+
+            </tbody>
+          </table>
+        </div>
+        <section class="">
+          <div class=" panel">
+            <h2>Título de panel</h2>
+          </div>
+          <p idclass="not">No existe datos</p>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+  </body>
+</html>
